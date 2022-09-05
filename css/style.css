@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: rgb(177, 118, 255);
+}
+
+header {
+    font: bold 25px Arial;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font: normal 15px Arial;
+}
+
+h1 {
+    margin: 12px;
+}
+
+footer {
+    font: italic 20px Arial;
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.2);
+    width: 600px;
+    margin: auto;
+    padding: 15px;
+}
+
+select#selectTab {
+    padding: 10px;
+}
